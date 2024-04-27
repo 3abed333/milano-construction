@@ -1,0 +1,67 @@
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #c24244;
+  }
+  
+  .navbar-brand:hover {
+      color: #c24244;
+  }
+  
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #7f4722;
+  }
+  
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #7f4722;
+  }
+  
+  .navbar-scrolled {
+    background-color: #ffede7;
+  }
+  body{
+        background-image: url(busBackground2.jpg);
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+  }
+  a:hover{
+    text-shadow: 2px 2px 4px #0000005b;
+    background-color: rgba(245, 245, 220, 0);
+    text-decoration: underline;
+    
+  }
+.button{
+    background-color:rgba(245, 245, 220, 0);
+}
+  .button1{border-radius: 12px;
+}
+  .button2 {border-radius: 12px;
+margin-left: 10px;
+
+}
+.card button {
+  border: none;
+  outline: 0; 
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card:hover{
+  box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.47);
+  
+}

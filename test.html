@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="aboutUs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        #petrabutton {
+
+            width: 351px;
+            margin-left: 349px;
+            object-fit: fill;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #007bff6f;
+            height: 50px;
+            transition: 0.8s;
+        }
+
+        #petrabutton:hover {
+
+            background-color: #0056b3;
+
+        }
+
+        .card {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            max-width: 700px;
+            margin-top: 80px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.751);
+
+        }
+
+        .card img {
+            width: 50%;
+            /* Adjust the width of the image as needed */
+            object-fit: cover;
+            height: 100%;
+        }
+
+        .card-text {
+            flex: 1;
+            margin-left: 380px;
+            margin-top: -400px;
+            text-align: left;
+            justify-content: center;
+        }
+
+        .card1 {
+
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            max-width: 700px;
+            margin-top: 80px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.751);
+            margin-left: 50px;
+        }
+
+        .card2 {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            max-width: 700px;
+            margin-top: 80px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.751);
+            margin-bottom: 80px;
+            margin-left: 50px;
+
+        }
+
+        .card3 {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            max-width: 700px;
+            margin-bottom: 30px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.751);
+            margin-left: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style="background-color: #ffede7;">
+        <div class="container">
+            <a class="navbar-brand" href="home.php">Swift Transportation</a>
+            <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="d-flex justify-content-start align-items-center">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link px-3" href="Resirvation.php">Reserve online</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="aboutUs.php">about us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link px-3" href="#!">cart</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <button class="button button1"> <a class="nav-link px-3" href="SignIn.php">Sign In</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="button button2"> <a class="nav-link px-3" href="SignUp.php">Sign Up</a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="card card1">
+        <img src="petra.jpeg" alt="Description of the image">
+        <div class="card-text">
+            <h5>Petra, in Jordan, known as the "Rose City," is a fascinating archaeological site carved into vibrant
+                pink cliffs around 6th century BCE. It features iconic structures like the Treasury and the Monastery,
+                showcasing
+                Nabataean rock-cut architecture and clever water systems. Recognized as a UNESCO World Heritage Site,
+                Petra reflects
+                its past as a bustling trading hub,
+                drawing visitors with its enduring beauty and cultural importance.</h5>
+        </div>
+        <a href="Resirvation.php"><button id="petrabutton">go to reserve page </button></a>
+    </div>
+    <div class="card card2">
+        <img src="irbid.jpg" alt="Description of the image">
+        <div class="card-text">
+            <h5>Irbid, often called the "City of Gardens,"
+                vibe. It used to be important for the Now, it's a big city with great schools
+                like Yarmouk University.
+                People from different backgrounds live there, making it diverse. The lively markets give a taste of
+                local culture, and nearby, you can
+                find beautiful nature along the Yarmouk River. Irbid is a busy and interesting city, combining its past,
+                education, and modern life in Jordan.
+            </h5>
+        </div>
+
+
+        <a href="Resirvation.php"><button id="petrabutton">go to reserve page </button></a>
+    </div>
+
+    <div class="card card3">
+        <img src="aqaba.webp" alt="Description of the image">
+        <div class="card-text">
+            <h5>Aqaba, Jordan's port city on the Red Sea, seamlessly merges history with modern allure. Its strategic
+                location has made it a crossroads for cultures. The city offers clear turquoise waters, perfect for
+                snorkeling and diving amid vibrant coral reefs. Aqaba, with its warm climate and growing tourism, is a
+                captivating destination blending history and adventure on the Red Sea's shores.
+            </h5>
+        </div>
+
+
+        <a href="Resirvation.php"><button id="petrabutton">go to reserve page </button></a>
+    </div>
+
+
+
+    <footer class="bg-light text-center text-lg-start" style="background-color: #ffede7;">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p style="font-weight: bold;"> © 2023 Swift Transportation. All rights reserved.</p>
+            <a href="https://www.instagram.com/milano.c.c/"><img src="insta.png" alt="" style="width: 50px;"></a>
+            <a href="mailto:abed7elrahman@gmail.com"><img src="gmail.png" alt="" style="width: 35px;"></a>
+            <a href="https://chat.whatsapp.com/LcAN3qJf4UdKIeL1UzO5za"><img src="whatsapp.png" alt=""
+                    style="width: 38px; margin-left: 9px;"></a>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
